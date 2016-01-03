@@ -1,7 +1,6 @@
 module BooksHelper
 
   def image_from_amazon(amazon_id)
-    image_tag 'http://imags.amazon.com/images/P/#{amazon_id}.01.ZTZZZZZZ.jpg'
+    image_tag 'http://ecx.images-amazon.com/images/I/#{amazon_id}_BO1,204,203,200_.jpg'
   end
-  
 end
